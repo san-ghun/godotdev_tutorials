@@ -1,0 +1,41 @@
+Scanning your code and 59 packages across 2 dependent modules for known vulnerabilities...
+
+Fetching vulnerabilities from the database...
+
+Checking the code against the vulnerabilities...
+
+=== Symbol Results ===
+
+No vulnerabilities found.
+
+=== Package Results ===
+
+No other vulnerabilities found.
+
+=== Module Results ===
+
+Vulnerability #1: GO-2024-3107
+    Stack exhaustion in Parse in go/build/constraint
+  More info: https://pkg.go.dev/vuln/GO-2024-3107
+  Standard library
+    Found in: stdlib@go1.23
+    Fixed in: stdlib@go1.23.1
+
+Vulnerability #2: GO-2024-3106
+    Stack exhaustion in Decoder.Decode in encoding/gob
+  More info: https://pkg.go.dev/vuln/GO-2024-3106
+  Standard library
+    Found in: stdlib@go1.23
+    Fixed in: stdlib@go1.23.1
+
+Vulnerability #3: GO-2024-3105
+    Stack exhaustion in all Parse functions in go/parser
+  More info: https://pkg.go.dev/vuln/GO-2024-3105
+  Standard library
+    Found in: stdlib@go1.23
+    Fixed in: stdlib@go1.23.1
+
+Your code is affected by 0 vulnerabilities.
+This scan also found 0 vulnerabilities in packages you import and 3
+vulnerabilities in modules you require, but your code doesn't appear to call
+these vulnerabilities.
